@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "esnext",
+    "moduleResolution": "node",
+    "lib": ["esnext"],
+    "types": ["lua-types/5.2", "lpp-vita-definitions"],
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strict": true,
+    "rootDir": "src",
+    "outDir": "out-src"
+  },
+  "include": ["**/*"],
+  "exclude": ["node_modules", "gulpfile.ts"]
+}
